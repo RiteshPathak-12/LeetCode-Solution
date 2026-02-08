@@ -17,7 +17,7 @@ Explanation: Your function should return k = 5, with the first five elements of 
 It does not matter what you leave beyond the returned k (hence they are underscores).*/
 
 class Remove_duplicate_Sorted_Array {
-    public static  int removeDuplicates(int[] nums) {
+    public static int removeDuplicates(int[] nums) {
         if(nums.length==0){
             return 0;
         }
